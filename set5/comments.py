@@ -41,11 +41,11 @@ def comment_details(postid):
             print("postId:", i['postId'], "\nid:", i['id'], '\nname:', i['name'], "\nemail:", i['email'], "\nbody",
                   i['body'], "\n")
 
-def comment(postid):
-    for i in comments:
-        if i['postId']==postid:
-            print(i)
-comment(1)
+# def comment(postid):
+#     for i in comments:
+#         if i['postId']==postid:
+#             print(i)
+
 # print("Select ptions: 1. Print complete posts from all user. 2. Posts from a particular user,given the post")
 # ans=input()
 # # if ans=='Y':
